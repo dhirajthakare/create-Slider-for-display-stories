@@ -1,7 +1,13 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { HomepageComponent } from './homepage/homepage.component';
+import { ShowSliderComponent } from './show-slider/show-slider.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  {path:'' , component:HomepageComponent},
+  {path:'show' , component:ShowSliderComponent}
+
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],

@@ -1,4 +1,6 @@
 import { Component } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog'
+import { ShowSliderComponent } from './show-slider/show-slider.component';
 
 @Component({
   selector: 'app-root',
